@@ -10,7 +10,6 @@ if ($BuildNo -eq '16299') {
      else {
      write-host -f Red $notFound
      }
-     elseif ($BuildNo -eq '15063') {
      
 if ($BuildNo -eq '15063') {
      get-hotfix | where {$_.HotFixId -like "KB4056891"}
