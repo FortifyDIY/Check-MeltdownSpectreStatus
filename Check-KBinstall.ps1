@@ -1,5 +1,5 @@
 ﻿$BuildNo = [System.Environment]::OSVersion.Version.Build
-$applied = 'Updates applied'
+$applied = 'Updates installed. Reboot may be required.'
 $notFound = 'Hotfix not found on this system. Please run Windows Update.'
 
 if ($BuildNo -eq '16299') {
